@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe IU", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 20px;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  color: white;
+}
+
+h1 {
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+#countdown {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px 60px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  #timer {
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+
+  .timer-unit {
+    display: block;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+}
