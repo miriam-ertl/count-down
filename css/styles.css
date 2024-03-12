@@ -32,17 +32,15 @@ h1 {
   text-align: center;
 }
 
-@media (max-width: 600px) {
-  #timer {
-    font-size: 3rem;
-    letter-spacing: 3px;
-  }
+#timer {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
 
-  .timer-unit {
-    display: block;
-    font-size: 0.5rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-  }
+.timer-unit {
+  display: block;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
